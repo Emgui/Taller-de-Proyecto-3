@@ -10,7 +10,7 @@
     <div class="form-group">
         <label class="col-sm-2 control-label">Datos de Cliente</label>
         <div class="col-sm-10">
-            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#divModalCliente" id="btnBuscarCliente">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#divModalCliente" id="btnBuscarCliente">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Cliente
             </button>
         </div>
@@ -40,7 +40,7 @@
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">Datos del Padre de Mascota</label>
         <div class="col-sm-10">
-            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarPadreMascota">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarPadreMascota">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Padre Mascota
             </button>
         </div>
@@ -65,7 +65,7 @@
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">Datos de la Madre de Mascota</label>
         <div class="col-sm-10">
-            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarMadreMascota">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarMadreMascota">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Madre Mascota
             </button>
         </div>
@@ -90,7 +90,7 @@
     <div class="form-group">
         <label for="inputEmail3" class="col-sm-2 control-label">Datos de la Camada</label>
         <div class="col-sm-10">
-            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarCamada">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#divModalMascota" id="btnBuscarCamada">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Camada 
             </button>
         </div>
@@ -141,7 +141,7 @@
                             </div>
                             <div class="col-md-2">
 
-                                <button type="button" class="btn btn-info btn-sm" id="btnBuscarClientePP">
+                                <button type="button" class="btn btn-primary btn-sm" id="btnBuscarClientePP">
                                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Cliente
                                 </button>
                             </div>
@@ -262,7 +262,7 @@
                                 <asp:DropDownList ID="ddlGenero" CssClass="form-control" runat="server"></asp:DropDownList>
                             </div>
                             <div class="col-md-2">
-                                <button type="button" class="btn btn-info btn-sm" id="btnBuscarMascotaPP">
+                                <button type="button" class="btn btn-primary btn-sm" id="btnBuscarMascotaPP">
                                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp;Buscar Mascota
                                 </button>
                             </div>
@@ -304,17 +304,31 @@
                         </div>
                         <div class="form-group">
                             <label class="col-sm-1 control-label">G&eacute;nero </label>
-                            <div class="col-sm-6">
+                            <div class="col-sm-5">
                                 <div class="radio">
-                                <label>Hembra
-                                    <input type="radio" name="optionsRadios" id="rbHembra" value="H" />
+                                <label><input type="radio" name="optionsRadios" id="rbHembra" value="H" />Hembra
+                                    
                                 </label>
-                                <label>Macho
-                                    <input type="radio" name="optionsRadios" id="rb" value="M" />
+                                    </div>
+                              
+                             <div class="radio">
+                                <label><input type="radio" name="optionsRadios" id="rb" value="M" />Macho
+                                    
                                 </label>
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="col-sm-1 control-label">Fecha Nac. </label>
+                            <div class="col-sm-3">
+                                <input />
+                            </div>
+                            <label class="col-sm-1 control-label">Tamaño </label>
+                            <div class="col-sm-3">
+                                <select id="ddlTamañoRC" class="form-control"></select>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <div class="modal-footer">
                         <a id="btnRegistrarMascota" class="btn btn-success btn-sm">Registar Mascota

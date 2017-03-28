@@ -26,15 +26,11 @@ namespace webAppPetCenter.Template
             var x = aplicacion.ObtenerMenu();
             StringBuilder cadena = new StringBuilder();
 
-            cadena.Append("<li class='dropdown'>");
-            cadena.Append("<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Mantenimiento</a>");
-            cadena.Append("<ul class='dropdown-menu'>");
             foreach (var item in x)
-            {                
-                cadena.AppendFormat("<li><a href='{1}'  >{0}</a></li>", item.Nombre, item.Controlador);                 
+            {
+                cadena.AppendFormat("<a href ='{1}' class='list-group-item'>{0}</a>", item.Nombre, item.Controlador);                 
             }
-            cadena.Append("</ul>");
-
+          
             MenuPrincipal.Text = cadena.ToString();
         }
     }

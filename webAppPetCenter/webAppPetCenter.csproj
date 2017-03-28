@@ -70,8 +70,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\bootstrap-datepicker.css" />
+    <Content Include="Content\css\bootstrap-dialog.min.css" />
+    <Content Include="Content\css\common.css" />
+    <Content Include="Content\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\css\shop-item.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\script\bootstrap-dialog.min.js" />
+    <Content Include="Content\script\common.js" />
+    <Content Include="Content\script\dataTables.bootstrap.min.js" />
     <Content Include="Content\script\gestionPedigri.js" />
+    <Content Include="Content\script\jquery.dataTables.js" />
+    <Content Include="Content\script\jquery.min.js" />
+    <Content Include="Content\script\utils.js" />
     <Content Include="packages.config" />
     <Content Include="Template\Main.Master" />
     <Content Include="Content\css\bootstrap-theme.css.map" />
