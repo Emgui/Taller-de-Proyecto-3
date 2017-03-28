@@ -1,0 +1,9 @@
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\PetCenterBL.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\PetCenterBL.pdb
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\obj\Debug\PetCenterBL.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\obj\Debug\PetCenterBL.pdb
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\PetCenterDL.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\EntityFramework.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\PetCenterDL.pdb
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\bin\Debug\EntityFramework.xml
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterBL\obj\Debug\PetCenterBL.csprojResolveAssemblyReference.cache
