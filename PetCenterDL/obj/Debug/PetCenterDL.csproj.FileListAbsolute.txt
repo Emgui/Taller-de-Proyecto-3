@@ -1,0 +1,7 @@
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\bin\Debug\PetCenterDL.dll.config
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\bin\Debug\PetCenterDL.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\bin\Debug\PetCenterDL.pdb
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\bin\Debug\EntityFramework.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\bin\Debug\EntityFramework.xml
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\obj\Debug\PetCenterDL.dll
+C:\Users\WilliansDavid\Documents\PetCenter\webAppPetCenter\PetCenterDL\obj\Debug\PetCenterDL.pdb
