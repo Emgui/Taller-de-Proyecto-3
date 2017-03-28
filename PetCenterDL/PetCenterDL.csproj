@@ -151,9 +151,7 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.Config" />
     <None Include="packages.config" />
     <None Include="Persistencia\PetCenterModelo.edmx.diagram">
       <DependentUpon>PetCenterModelo.edmx</DependentUpon>
